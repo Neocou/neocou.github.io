@@ -36,6 +36,6 @@ UESTC大三学生一枚，目标JAVA后端工程师。
 
 ## 最后
 
-插个图片填充一下页面。
+放个图片溜~
 
 ![blog](/images/about.jpg)
