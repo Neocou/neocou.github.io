@@ -1,37 +1,41 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: 关于博客
+tags: [about, blog]
+date: 2018-04-28
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center> 一个大概没什么内容的博客。</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## 起初
 
-## Preview
+只是想单纯的弄个博客，考虑过用WordPress或者其他CSDN之类有的博客，感觉不太好。
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+想自己写个完整的博客的话，一方面考虑前端自己搞不定，另外还要搞域名、服务器部署之类的问题，很烦。
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+找了一段时间，找到了Jekyll这种静态快速搭建博客，还可以使用github部署，很方便。
 
-## Getting Started
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+## 自我介绍
+
+UESTC大三学生一枚，目标JAVA后端工程师。
+
+目前在上海实习，写博客只是为了找点事情做，非典型程序员。
+
+此博客也不准备写任何技术相关的内容，个人项目在[我的github](https://github.com/Neocou)上。
+
+重申此博客只记录我的一些想法，没有任何技术内容，嘛，虽然我觉得没人会看这个博客。
+
+
+
+## 短期目标
+
+每周写一篇博客吧，记录一下生活。
+
+
+## 最后
+
+插个图片填充一下页面。
+
+![blog](/images/about.jpg)

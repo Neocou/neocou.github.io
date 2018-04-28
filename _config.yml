@@ -1,14 +1,14 @@
 # Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:               随心
+bio:                '心有所随，则可随心'
+description:        "既然相遇是偶然，又何必在意分开时的突然"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:                https://neocou.github.io
+tiled_bg:           true   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             zh_CN
+url:                https://neocou.github.io/
 
 # Jekyll
 permalink:          /:title/
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   suixin
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -37,20 +37,18 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
+email:              1444125144@qq.com
+github-url:         Neocou
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+steam:              haishisui
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
@@ -63,7 +61,7 @@ steam:              username
 #hackernews:        username
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
