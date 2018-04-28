@@ -17,7 +17,17 @@ layout: compress
             <div class="content">
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     <h1>{{ page.title }}</h1>
-                    <h4>{{ page.date | date_to_string }}</h4>
+                    <h4>{{ page.date | date: "%Y年%-m月%-d日 星期" }}
+					{% assign dy = page.date | date: "%a" %}
+					{% case dy %}
+					  {% when "Mon" %}一
+					  {% when "Tues" %}二
+					  {% when "Wed" %}三
+					  {% when "Thur" %}四
+					  {% when "Fri" %}五
+					  {% when "Sat" %}六
+					  {% else %}日
+					  {% endcase %}</h4>
                     {% if site.reading_time %}
                     <p class="reading-time">
                       <i class="fa fa-clock-o"></i>
