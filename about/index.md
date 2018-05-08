@@ -38,4 +38,4 @@ UESTC大三学生一枚，目标JAVA后端工程师。
 
 放个图片溜~
 
-![blog](https://github.com/Neocou/neocou.github.io/blob/master/images/about.jpg)
+![blog](https://raw.githubusercontent.com/Neocou/neocou.github.io/master/images/about.jpg)
