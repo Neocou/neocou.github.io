@@ -21,12 +21,12 @@ layout: compress
 					{% assign dy = page.date | date: "%a" %}
 					{% case dy %}
 					  {% when "Mon" %}一
-					  {% when "Tues" %}二
+					  {% when "Tue" %}二
 					  {% when "Wed" %}三
-					  {% when "Thur" %}四
+					  {% when "Thu" %}四
 					  {% when "Fri" %}五
 					  {% when "Sat" %}六
-					  {% when "Sun" %}日
+					  {% else %}日
 					  {% endcase %}</h4>
                     {% if site.reading_time %}
                     <p class="reading-time">
